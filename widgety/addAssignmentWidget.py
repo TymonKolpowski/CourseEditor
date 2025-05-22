@@ -1,6 +1,4 @@
 from PyQt5.QtWidgets import QVBoxLayout, QHBoxLayout, QWidget, QPushButton, QLabel, QTextEdit, QLineEdit, QSpinBox, QListWidget, QComboBox, QListWidgetItem
-from PyQt5.QtCore import Qt
-import os, json
 class addAssignmentWidget(QVBoxLayout):
     def __init__(self):
         super().__init__()
