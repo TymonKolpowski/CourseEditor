@@ -1,6 +1,5 @@
 from widgety.addSubjectWidget import addSubjectWidget
 from widgety.addAssignmentWidget import assignmentListWidgetItem
-from PyQt5.QtWidgets import QLabel
 import os, json
 class seeSubjectWidget(addSubjectWidget):
     def __init__(self, pathToCms, courseTag, currentRow):
